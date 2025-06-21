@@ -71,7 +71,7 @@ pip install torch torchvision numpy tqdm imageio scikit-image lpips
 Both NeRF and TensorRF share the same training loop (`src/train.py`).
 
 ```bash
-python -m src.train   --config configs/horns.yaml
+python -m src.train
 ```
 
 - Checkpoints will be saved to the directory specified in `configs/horns.yaml` (default `ckpts/horns/`).
