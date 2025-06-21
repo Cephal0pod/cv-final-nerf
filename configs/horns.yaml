@@ -1,0 +1,29 @@
+# configs/horns.yaml
+data:
+  data_dir: "C:/Users/20638/Desktop/Study/2024_sem_2/计算机视觉/Final/data/nerf_llff_data/horns"
+  # 不再需要 camera_angle_x，这里保留为后备
+  near: 0.1
+  far: 5.0
+
+model:
+  type: "nerf"         # 或 "nerf"
+  resolution: 128
+  rank: 8
+  num_layers: 4
+  hidden_dim: 256
+  pe_L: 6
+  encoding:
+    L: 10
+  N_samples: 128
+
+
+training:
+  lr: 1e-3
+  batch_size: 4096
+  iters: 50000
+  save_every: 10000
+  N_rand: 1024
+
+log_dir: "logs/horns"
+ckpt_dir: "ckpts/horns"
+
