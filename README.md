@@ -128,7 +128,7 @@ If you use this code or data in your research, please cite:
 ## Simple Model Repository
 
 Original model ckpts produced by author can be found here:
-
+[Download here!](https://drive.google.com/drive/folders/1oTjqpxPh-7-UE0RfOOVFGqM9b5tRWj-8?usp=sharing)
 ---
 
 ## License
