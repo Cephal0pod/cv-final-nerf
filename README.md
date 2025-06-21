@@ -1,6 +1,6 @@
 # Simple LLFF “Horns” Neural Rendering Benchmark
 
-This repository contains PyTorch implementations and scripts for training and evaluating three neural rendering methods—NeRF and TensorRF—on the LLFF “Horns” dataset.
+This repository contains PyTorch implementations and scripts for training and evaluating two neural rendering methods—NeRF and TensoRF—on the LLFF “Horns” dataset.
 
 ---
 
@@ -18,10 +18,10 @@ This repository contains PyTorch implementations and scripts for training and ev
 │       └── transforms_*.json
 ├── src/
 │   ├── llff2nerf.py         # convert LLFF → Nerf-style transforms
-│   ├── train.py             # training loop for NeRF & TensorRF
+│   ├── train.py             # training loop for NeRF & TensoRF
 │   ├── render.py            # novel-view rendering & video generation
 │   ├── eval.py              # compute PSNR/SSIM/LPIPS on held-out split
-│   ├── models.py            # NeRF / TensorRF / Gaussian model definitions
+│   ├── models.py            # NeRF / TensoRF / Gaussian model definitions
 │   ├── renderer.py          # ray generation, volumetric renderer
 │   └── utils.py             # common utilities (config loader, metrics)
 ├── ckpts/                   # model checkpoints (auto-created)
@@ -68,7 +68,7 @@ pip install torch torchvision numpy tqdm imageio scikit-image lpips
 
 ## Training
 
-Both NeRF and TensorRF share the same training loop (`src/train.py`).
+Both NeRF and TensoRF share the same training loop (`src/train.py`).
 
 ```bash
 python -m src.train
