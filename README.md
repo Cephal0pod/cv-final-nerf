@@ -1,6 +1,6 @@
-# LLFF “Horns” Neural Rendering Benchmark
+# Simple LLFF “Horns” Neural Rendering Benchmark
 
-This repository contains PyTorch implementations and scripts for training and evaluating three neural rendering methods—NeRF, TensorRF, and 3D Gaussian Splatting—on the LLFF “Horns” dataset.
+This repository contains PyTorch implementations and scripts for training and evaluating three neural rendering methods—NeRF and TensorRF—on the LLFF “Horns” dataset.
 
 ---
 
@@ -125,6 +125,9 @@ If you use this code or data in your research, please cite:
   year={2023}
 }
 ```
+## Simple Model Repository
+
+Original model ckpts produced by author can be found here:
 
 ---
 
